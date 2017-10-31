@@ -1,0 +1,233 @@
+html{
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: grey;
+  color: #454545;
+}
+/* global presets */
+a{
+  text-decoration: none;
+}
+.content-pad{
+  padding: 2rem 1.5rem;
+}
+
+/* header */
+.header{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+#logo{
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+#logo img{
+  height: 3rem;
+  width: auto;
+  padding-top: 3px;
+}
+#logo .text{
+  display: inline;
+}
+#logo span{
+  color: #454545; /*text darker-grey*/
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#logo span:last-child{
+  color: #BABABA;
+  font-weight: normal;
+}
+.header nav{
+  padding-right: 1.5rem;
+}
+.header a{
+  margin-left: 1rem;
+  color: #454545;
+}
+/* main-body */
+.section{
+  width: 100%;
+  background-color: #C0C0C0; /*Light grey*/
+}
+.main-body h1,
+.main-body h2{
+  color: #454545; /*text darker-grey*/
+  margin-bottom: 2rem;
+}
+.main-body h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main-body h2{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+/* spacing 60%//40% */
+.main{
+  width: 60%;
+}
+.supporting{
+  width: 40%;
+}
+.split{
+  display: flex;
+  align-items: flex-start;
+}
+.split .text-content{
+  padding-top: 2rem;
+}
+.split h1{
+  margin-bottom: 1.5rem;
+}
+.split p{
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+.split .supporting{
+  margin-top: 1rem;
+}
+.split .info{
+  padding: 1rem 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+}
+  /* supporting */
+/* section --- banner */
+.banner{
+  display: flex;
+  align-items: center;
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+.banner .text-content{
+  margin-right: 4rem;
+}
+.btn{
+  background-color: #454545;
+}
+.btn span{
+  padding: 0.5rem;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+/* section --- information */
+  /* main */
+.information{
+  background-color: #F5F5F5;
+}
+.image-container img{
+  width: 100%;
+  height: auto;
+}
+
+.information .main{
+  border-right: 1px solid #DEDEDE;
+}
+
+.information .info{
+  border-bottom: 2px solid #C0C0C0;
+}
+
+.info:hover{
+  background-color: #C0C0C0;
+}
+.info .image-container{
+  width: 35%;
+}
+.info .description{
+  width: 65%;
+  margin-left: 1rem;
+}
+.info h2{
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.info h3{
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.info a{
+  color: #54C2FF; /* link blue */
+}
+.info a:visited{
+  color: #54C2FF; /* link blue */
+}
+
+/* section --- learning-courses */
+.course{
+  background-color: #DEDEDE;
+}
+.title h1{
+  padding: 2rem 0;
+  margin: 0;
+  text-align: center;
+}
+.course-list{
+  padding: 0 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item{
+  background-color: white;
+  margin: 0 2rem 2rem 2rem;
+  max-width: 532px; /*same as img width*/
+}
+.item img{
+  height: auto;
+}
+.item .description{
+  padding: 0 1rem 1.5rem 1rem;
+}
+.item .description h1{
+  text-align: left;
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+.item .description h2{
+  padding: 0.5rem 0;
+  margin: 0;
+  color: #BABABA;
+}
+.item .description p{
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #BABABA;
+}
+
+/* section --- thesis */
+.thesis{
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DEDEDE;
+}
+.thesis h1{
+  padding-bottom: 0;
+}
+.thesis video{
+  width: 100%;
+  height: auto;
+}
+.thesis .text-content h2{
+  font-weight: bold;
+}
+
+/* footer copyright */
+.footer{
+  background-color: #F5F5F5;
+}
+.footer span{
+  display: block;
+  padding: 1rem 0 5rem 1.5rem;;
+  color: #BABABA;
+}
