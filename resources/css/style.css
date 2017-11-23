@@ -20,7 +20,7 @@ a{
   justify-content: space-around;
 }
 /* header */
-.header{
+header{
   height: 4rem;
   display: flex;
   align-items: center;
@@ -50,10 +50,10 @@ a{
   color: #BABABA;
   font-weight: normal;
 }
-.header nav{
+header nav{
   padding-right: 1.5rem;
 }
-.header a{
+header a{
   margin-left: 1rem;
   color: #454545;
 }
@@ -61,17 +61,17 @@ a{
   #logo{
     display: none;
   }
-  .header nav{
+  header nav{
     display: none;
   }
-  .header img{
+  header img{
     width: 2rem;
     height: auto;
   }
-  .header a{
+  header a{
     margin: 0;
   }
-  .header .mobile{
+  header .mobile{
     display: inline-block;
     width: 100%;
   }
@@ -258,6 +258,7 @@ a{
   padding: 0 2.5rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .item{
   background-color: white;
