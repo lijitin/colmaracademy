@@ -1,2 +1,2 @@
 # colmaracademy
-Check current progress here: https://lijitin.github.io/colmaracademy/
+Completed! https://lijitin.github.io/colmaracademy/
